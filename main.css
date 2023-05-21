@@ -1,0 +1,121 @@
+/**{border: solid;}*/
+
+.upperNav{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgb(245, 245, 245);
+}
+
+.upperNav ul{
+ 
+}
+
+.upperNav .side{
+  
+margin-left: auto;
+}
+
+.upperNav li{
+
+display: inline-block;
+margin: 10px;
+
+}
+
+
+
+.upperNav a{
+text-decoration: none;
+color: black;
+
+}
+
+.upperNav .navIcon i, .upperNav .navIcon span{
+  color: black;
+}
+
+.upperNav .navIcon{display: none;}
+
+.dropdown{
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+
+}
+.dropdown  i{
+    padding: 10px;
+}
+
+
+.dropdown button {
+    text-align: left;
+    height: 100%;
+    color: black;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+ .dropdown div {
+    display: none;
+    position: absolute;
+    
+    top:100%;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+   .dropdown div a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+   .dropdown div a:hover {background-color: orange}
+  
+   .dropdown:hover div {
+    display: block;
+  }
+
+
+  .navIcon{
+    display:inline-block;
+    margin: 10px;
+    align-items: center;
+}
+
+
+.navIcon i{
+color: yellow;
+}
+
+.navIcon span{
+    color: white;
+    border: solid;
+    border-radius: 50%;
+    border-width: thin;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+}
+
+
+
+  @media only screen and (max-width: 800px) {
+
+    .upperNav ul{
+      display: none;
+    }
+    .upperNav .side{
+      margin-left: inherit;
+    }
+    .upperNav .navIcon{display: inline-block;}
+
+  }
