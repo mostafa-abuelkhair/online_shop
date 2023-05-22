@@ -1,0 +1,85 @@
+/********************* mid Nav **********************/
+.midNav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+  }
+  
+.midNav a{
+    font-size: 0px;;
+  }
+  
+.midNav a span:first-child{
+    margin:0px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: yellow;
+    background-color:rgb(64, 63, 61);
+    padding: 10px;
+    font-size: 2.3rem;
+  }
+  
+.midNav a span:last-child{
+    margin:0px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(64, 63, 61);
+    background-color:yellow;
+    padding: 10px;
+    font-size: 2.3rem;
+}
+    
+.midNav div {
+    height: 35px;
+    font-size: 0px;
+}
+  
+.midNav div input {
+    font-size: 1.1rem;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    width: 280px;
+    height: 100%;
+    box-shadow:none;
+    box-sizing: border-box;
+}
+  
+.midNav div input:focus{
+    border-color: orange;
+    outline: 0;
+    border-width: thin;
+}
+  
+  
+.midNav div button{
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-width: 1px;
+    border-left: none;
+    background-color: white;
+    height: 100%;
+    width: 40px;
+    color: orange;
+}
+  
+.midNav span{
+    width: 120px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.midNav span::first-line{
+    color: gray;
+    font-size: 1rem;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+    .midNav{
+        display: none;
+    }
+
+  }

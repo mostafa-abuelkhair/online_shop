@@ -1,0 +1,51 @@
+/********************* Upper Nav **********************/
+.upperNav{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgb(245, 245, 245);
+}
+
+.upperNav ul{
+ 
+}
+
+.upperNav .side{
+  
+margin-left: auto;
+}
+
+.upperNav li{
+
+display: inline-block;
+margin-right: 10px;
+
+}
+
+.upperNav a{
+text-decoration: none;
+color: black;
+
+}
+
+.upperNav .navIcon i, .upperNav .navIcon span{
+  color: black;
+}
+
+.upperNav .navIcon{display: none;}
+
+
+
+@media only screen and (max-width: 800px) {
+
+    .upperNav ul{
+      display: none;
+    }
+    .upperNav .side{
+      margin-left: inherit;
+    }
+    .upperNav .navIcon{display: inline-block;}
+
+  }
