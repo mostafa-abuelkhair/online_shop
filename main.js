@@ -3,13 +3,13 @@ let menue = true;
 
 function menuef (){
 
-    let menueElement = document.getElementsByClassName("menue");
+    let menueElement = document.getElementsByClassName("menue")[0];
 
     if(menue){
-        menueElement[0].classList.add('show');
+        menueElement.classList.add('show');
     }
     else{
-        menueElement[0].classList.remove('show');
+        menueElement.classList.remove('show');
     }
     menue = !(menue);
 
