@@ -42,7 +42,7 @@
     top: 0;
     left: 0;
     position: absolute;
-    filter:contrast(50%);
+    filter:contrast(60%);
     transition: all ;
     transition-duration: 1s;
 }
@@ -74,9 +74,13 @@
 }
 .carousel h1{
     font-size: 3rem;
+    animation-name: a-top;
+    animation-duration: 2s;
 }
 .carousel p{
     font-size: 1.4rem;
+    animation-name: a-scale;
+    animation-duration: 2s;
 }
 .carousel button{
     background-color: transparent;
@@ -85,6 +89,8 @@
     font-size: 1.4rem;
     width: 120px;
     height: 50px;
+    animation-name: a-bottom;
+    animation-duration: 2s;
 }
 .carousel button:hover{    
     background-color: white;
@@ -110,3 +116,18 @@
 
 }
 
+@keyframes a-top {
+    from {top:-50px;opacity: 0%;}
+    to {top:0px;opacity: 100%;}
+  }
+  @keyframes a-bottom {
+    from {bottom:-50px;opacity: 0%;}
+    to {bottom:0px;opacity: 100%;}
+  }
+
+  @keyframes a-scale{
+    0%  {scale: 0.9;opacity: 0%;}
+    25%  {scale: 1.1}
+    50%  {scale: 0.9}
+    100% {scale: 1;opacity: 100%;}
+  }
