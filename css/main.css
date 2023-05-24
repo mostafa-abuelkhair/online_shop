@@ -1,6 +1,7 @@
 /**{border: solid;}*/
 
 /********************* Drop Buttons **********************/
+html {background-color:rgb(250, 250, 250)}
 .dropdown{
   display: inline-block;
   position: relative;

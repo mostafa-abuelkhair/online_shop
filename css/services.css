@@ -6,7 +6,17 @@
 }
 
 .services div{
-    background-color: red;
+    background-color:white;
+    font-family: sans-serif;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.services i{
+    color: rgb(255, 213, 0);
+    font-size: 2.5rem;
+    margin-right: 20px;
+
 }
 
 

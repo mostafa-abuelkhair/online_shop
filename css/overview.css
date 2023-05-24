@@ -91,6 +91,7 @@
     height: 50px;
     animation-name: a-bottom;
     animation-duration: 2s;
+    color: white;
 }
 .carousel button:hover{    
     background-color: white;
