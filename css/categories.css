@@ -5,10 +5,6 @@
     gap: 20px;
 }
 
-.catheader{
-    margin-left: 30px;
-}
-
 .categories .cat{
     height: 100px;
     cursor: pointer;

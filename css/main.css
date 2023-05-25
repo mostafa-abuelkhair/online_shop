@@ -71,3 +71,17 @@ color: yellow;
 }
 
 .f-right{float:right;}
+
+.header-dashed{
+  padding: 30px;
+  display: flex;
+  align-items:center;
+}
+
+.header-dashed div{
+  border-top: dashed;
+  margin: 10px;
+  width: 100%;
+  height: 0px;
+  border-width: 1px;
+}
